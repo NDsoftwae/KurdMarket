@@ -8,6 +8,6 @@ namespace KurdMarket.Controllers
     public class Test : ControllerBase
     {
         [HttpGet]
-        public IActionResult get() => Ok("This service is running through CI/CD from github to Azure machine....");
+        public IActionResult get() => Ok("CI/CD from GitHub to Azure Machine Completed.and this service is running successfully....");
     }
 }
